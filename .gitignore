@@ -5,3 +5,6 @@
 .jupyter/desktop-workspaces/default-37a8.jupyterlab-workspace
 .jupyter/desktop-workspaces/default-37a8.jupyterlab-workspace
 Oxford-Dictionary-Json.json
+video-cropper/.DS_Store
+video-cropper/components/.DS_Store
+video-cropper/utils/.DS_Store
