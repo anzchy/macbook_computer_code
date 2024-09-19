@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Regex Tips</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="api-key-form" style="display: none;">
+    <h2>Enter your OpenAI API Key</h2>
+    <input type="text" id="api-key-input" placeholder="Enter your API key">
+    <button id="save-api-key">Save</button>
+  </div>
+
+  <div id="main-content">
+    <h1>Regex Tips</h1>
+    <div class="input-container">
+      <textarea id="regex-input" placeholder="I'd like to match a valid..."></textarea>
+      <button id="get-regex">Get Regex</button>
+    </div>
+    <div id="loading" style="display: none;">
+      <div class="spinner"></div>
+      <p>Generating regex...</p>
+      <p id="progress-info"></p>
+    </div>
+    <div id="result"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
