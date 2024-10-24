@@ -12,3 +12,5 @@ regex_chrome extension/.DS_Store
 youtube_batch_downloader/.DS_Store
 .DS_Store
 .DS_Store
+youtube_batch_downloader/__pycache__/ui.cpython-310.pyc
+youtube_batch_downloader/__pycache__/downloader.cpython-310.pyc
